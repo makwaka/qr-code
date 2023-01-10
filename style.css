@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap');
+
+*,
+::before,
+::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit' 'Roboto', sans-serif;
+}
+
+
+.section-center{
+    height: 100vh;
+    width: 100vw;
+    background: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background:hsl(0, 0%, 100%);
+    width: 350px;
+    border-radius: 10px;
+}
+
+#img{
+    padding: 15px;
+}
+
+span{
+   display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#qr{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#description{
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#description h2{
+    line-height: 1.5;
+    margin-bottom: 1rem;
+}
+
+#description p{
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+    color: hsl(220, 15%, 55%);
+}
+
+
+/* # Front-end Style Guide
+
+## Layout
+
+The designs were created to the following widths:
+
+- Mobile: 375px
+- Desktop: 1440px
+
+## Colors
+
+- White: hsl(0, 0%, 100%)
+- Light gray: hsl(212, 45%, 89%)
+- Grayish blue: hsl(220, 15%, 55%)
+- Dark blue: hsl(218, 44%, 22%)
+
+## Typography
+
+### Body Copy
+
+- Font size (paragraph): 15px
+
+### Font
+
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 */
